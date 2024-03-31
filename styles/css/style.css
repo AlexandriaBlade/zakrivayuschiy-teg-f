@@ -215,11 +215,13 @@
     gap: 8px;
     align-items: center;
     background: var(--page-background);
+    margin-bottom: 105px;
   }
   
   @media (width <= 375px) {
     .save-button {
       flex-direction: column;
+      margin-bottom: 100px;
     }
   }
   
